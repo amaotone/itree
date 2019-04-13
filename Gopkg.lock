@@ -11,10 +11,9 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:7a6377256f670508711c56c25556d639e673c0fa0f519c5a758fdcbfc8af9ac8"
+  digest = "1:62c57507df491b657e9ae2645f30958d9964c8eeb380600469eedc951ebb3a0e"
   name = "github.com/golang/freetype"
   packages = [
-    ".",
     "raster",
     "truetype",
   ]
@@ -39,10 +38,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = [
-    "github.com/fogleman/gg",
-    "github.com/golang/freetype",
-    "github.com/golang/freetype/truetype",
-  ]
+  input-imports = ["github.com/fogleman/gg"]
   solver-name = "gps-cdcl"
   solver-version = 1
